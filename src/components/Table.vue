@@ -64,7 +64,6 @@ export default {
 			this.isModalVisible = true;
 		},
 		handleChangeSelect(id) {
-			console.log(id);
 			this.selectedUser = id;
 		},
 		loadUsersFromLocalStorage() {
